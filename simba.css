@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    padding: 0px;
+    border-style: solid;
+    border-width: thick;
+    width: 700px;
+    border-color: #EE4B6A;
+    background-color:black;
+    margin: auto;
+
+    color: white;
+    font-family:'courier new';
+    font-size:50px;
+}
+
+#theme {
+    background-color: black; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    display: block;
+    margin-left: 1280px;
+}
+
+#play {
+
+  background-color: black; 
+  color: white;
+  padding: 50px 75px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer; 
+  margin-left: 100px;
+  margin-top: 100px;
+
+  
+
+}
+
+
