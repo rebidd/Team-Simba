@@ -7,37 +7,93 @@ h1 {
     border-color: #EE4B6A;
     background-color:black;
     margin: auto;
-
     color: white;
     font-family:'courier new';
     font-size:50px;
+    
 }
 
-#theme {
-    background-color: black; 
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-    width: 150px;
-    display: block;
-    margin-left: 1280px;
-}
 
 #play {
 
   background-color: black; 
   color: white;
-  padding: 50px 75px;
-  text-align: center;
-  font-size: 16px;
-  cursor: pointer; 
-  margin-left: 100px;
-  margin-top: 100px;
+  padding: 20px;
+  padding-left: 300px;
+  padding-right: 300px;
+  margin  : auto;
+  display : block;
+  cursor: pointer;
+  margin-top: 150px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  font-weight: bold;
 
-  
+}
+#credits {
+
+  background-color: black; 
+  color: white;
+  padding: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin  : auto;
+  display : block;
+  cursor: pointer;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+}
+#leaderboard {
+
+  background-color: black; 
+  color: white;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin  : auto;
+  display : block;
+  cursor: pointer;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+
+}
+#themes {
+
+  background-color: black; 
+  color: white;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin  : auto;
+  display : block;
+  cursor: pointer;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+
+}
+
+#exit{
+
+  background-color: black; 
+  color: white;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin  : auto;
+  display : block;
+  cursor: pointer;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+
+}
 
 }
 
