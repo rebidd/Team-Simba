@@ -100,4 +100,5 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: auto;
+  background-attachment: fixed;
 }
