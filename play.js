@@ -1,6 +1,6 @@
 function exit(){
 
-    window.location.href = "simba.html"
+    window.location.href = "simba.html";
     
     
     }
@@ -21,7 +21,7 @@ function begin() {
         }
   
     }
-    window.location.href = "tryagain.html"
+    window.location.href = "tryagain.html";
    
 }
 
