@@ -11,7 +11,7 @@ function begin() {
 
     
     for (i = x; i != 0; i = i - 1) {
-        var z = prompt("you have "+ i + " tries ");
+        var z = prompt("you have "+ i + " attemps left ");
 
         if (y==z) {
 
