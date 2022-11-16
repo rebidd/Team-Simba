@@ -14,7 +14,7 @@ h1 {
 }
 
 
-#play {
+#play, #begin, #tryAgain{
 
   background-color: black; 
   color: white;
