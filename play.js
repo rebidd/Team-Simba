@@ -6,7 +6,7 @@ function exit(){
     }
 function begin() {
     var x = prompt("How many tries would you like to guess the number from 1-100?")
-    var y = parseInt(Math.random()*(100-1+1))+1;
+    var y = parseInt((Math.random()*(100-1+1))+1);
    
         document.getElementById("this").innerHTML = y;
 
