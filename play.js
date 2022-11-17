@@ -5,22 +5,28 @@ function exit(){
     
     }
 function begin() {
-    var x = prompt("How many tries would you like to guess the number from 1-100?");
-    var y = parseInt((Math.random()*(100-1+1))+1);
-   
+    var x = parseInt(prompt("How many tries would you like to guess the number from 1-100?"));
+    var y = Math.floor((Math.random()*(5-1+1))+1);
 
-    
-    for (i = x; i != 0; i = i - 1) {
-        var z = prompt("you have "+ i + " attemps left ");
+  
+    for (i = x; i > 0; i = i - 1) {
+        var z= parseInt(prompt("you have "+ i + " tries "));
 
-        if (y==z) {
-
+        if (z==y){
             window.location.href = "congrats.html";
-            
         }
   
     }
-    window.location.href = "tryagain.html";
-   
+
+    if (z==y) {
+
+        window.location.href = "congrats.html";
+        
+    }
+    else{
+        window.location.href = "tryagain.html";
+
+    }
+
 }
 
