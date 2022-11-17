@@ -12,9 +12,7 @@ function begin() {
     for (i = x; i > 0; i = i - 1) {
         var z= parseInt(prompt("you have "+ i + " tries "));
 
-        if (z==y){
-            window.location.href = "congrats.html";
-        }
+       break;
   
     }
 
