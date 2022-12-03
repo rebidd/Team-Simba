@@ -1,6 +1,4 @@
-html{
-  background-image: url(https://thecharliegardfoundation.org/wp-content/uploads/2020/05/Lottery-Numbers.gif);
-}
+
 h1 {
   text-align: center;
   padding: 0px;
@@ -59,4 +57,7 @@ p{
 }
 div{
   text-align: center;
+}
+body {
+  background-image: url(https://thecharliegardfoundation.org/wp-content/uploads/2020/05/Lottery-Numbers.gif);
 }
