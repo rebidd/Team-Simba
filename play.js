@@ -1,34 +1,36 @@
+
 function exit(){
 
     window.location.href = "simba.html";
     
     
     }
+    var url ="http://localhost:3000/post";
 function begin() {
-    var x = prompt("How many tries would you like to guess the number from 1-100?");
-    var y = Math.floor(Math.random()*100)+1;
-
+    var x = parseInt(prompt("How many tries would you like to guess the number from 1-100?"));
+    var y = Math.floor((Math.random()*(100))+1);
 
   
     for (i = x; i > 0; i = i - 1) {
-        var z = prompt("you have "+ i + " attempts left ")
+        var z= parseInt(prompt("you have "+ i + " tries "));
 
-        if (z==y) {
-
+        if (z==y){
             window.location.href = "congrats.html";
-            break;
-            
-            
         }
+  
+    }
 
-        else {
-            window.location.href = "tryagain.html";
-        }
-    
+    if (z==y) {
+
+        window.location.href = "congrats.html";
+        
+    }
+    else{
+        window.location.href = "tryagain.html";
 
     }
-       
-       
+
 }
 
+    
 
