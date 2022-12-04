@@ -12,18 +12,13 @@ function tryAgain(){
     for (i = x; i > 0; i = i - 1) {
         var z= parseInt(prompt("you have "+ i + " tries "));
         
-        break;
+
+        if (z==y){
+            window.location.href = "congrats.html";
+        }
+  
   
     }
 
-    if (z==y) {
-
-        window.location.href = "congrats.html";
-        
-    }
-    else{
-        window.location.href = "tryagain.html";
-
-    }
 
 }
