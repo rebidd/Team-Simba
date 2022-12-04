@@ -14,5 +14,5 @@ window.onload = function(){
     myName = prompt("You Win!! Please enter your name", "");
    
     
-    op.innerHTML ="Challenger's name"+"<br>" +myName;
+    op.innerHTML ="Challenger's Name"+"<br>" +myName;
 }
