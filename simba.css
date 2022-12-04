@@ -13,7 +13,15 @@ h1 {
   font-size:50px;
   
 }
-
+h2{
+  background-color: blue;
+  font-size: 60px;
+  color: wheat;
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  margin-top: 10px;
+}
 
 button{
 
@@ -60,4 +68,46 @@ div{
 }
 body {
   background-image: url(https://thecharliegardfoundation.org/wp-content/uploads/2020/05/Lottery-Numbers.gif);
+}
+
+#row1{
+  background-color: gold;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid #AFAFAF;
+  padding: -100px;
+}
+#row2{
+  background-color: silver;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid #AFAFAF;
+  padding: -100px;
+
+
+}
+#row3{
+  background-color: brown;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid #AFAFAF;
+  padding: -100px;
+
+}
+#row{
+  background-color:aliceblue;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid #AFAFAF;
+  padding: -100px;
+
+
 }
