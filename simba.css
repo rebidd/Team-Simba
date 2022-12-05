@@ -23,6 +23,17 @@ h2{
   margin-top: 10px;
 }
 
+h3{
+  background-color:darkgray;
+  font-size: 60px;
+  color: wheat;
+  text-align: center;
+  width: 1000px;
+  margin: auto;
+  margin-top: 10px;
+
+}
+
 button{
 
 background-color: black; 
